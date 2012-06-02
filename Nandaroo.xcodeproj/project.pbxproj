@@ -15,6 +15,8 @@
 		EB0B5ADC157A4A1C00D01C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5ADB157A4A1C00D01C18 /* main.m */; };
 		EB0B5AE0157A4A1C00D01C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5ADF157A4A1C00D01C18 /* AppDelegate.m */; };
 		EB0B5AE3157A4A1C00D01C18 /* Nandaroo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5AE1157A4A1C00D01C18 /* Nandaroo.xcdatamodeld */; };
+		EB0B5AEB157A4EB500D01C18 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5AEA157A4EB500D01C18 /* Question.m */; };
+		EB0B5AF2157A525800D01C18 /* QuestionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5AF1157A525800D01C18 /* QuestionStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		EB0B5ADE157A4A1C00D01C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB0B5ADF157A4A1C00D01C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB0B5AE2157A4A1C00D01C18 /* Nandaroo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nandaroo.xcdatamodel; sourceTree = "<group>"; };
+		EB0B5AE9157A4EB500D01C18 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		EB0B5AEA157A4EB500D01C18 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		EB0B5AF0157A525800D01C18 /* QuestionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionStore.h; sourceTree = "<group>"; };
+		EB0B5AF1157A525800D01C18 /* QuestionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 				EB0B5ADF157A4A1C00D01C18 /* AppDelegate.m */,
 				EB0B5AE1157A4A1C00D01C18 /* Nandaroo.xcdatamodeld */,
 				EB0B5AD6157A4A1C00D01C18 /* Supporting Files */,
+				EB0B5AE9157A4EB500D01C18 /* Question.h */,
+				EB0B5AF0157A525800D01C18 /* QuestionStore.h */,
+				EB0B5AF1157A525800D01C18 /* QuestionStore.m */,
+				EB0B5AEA157A4EB500D01C18 /* Question.m */,
 			);
 			path = Nandaroo;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 				EB0B5ADC157A4A1C00D01C18 /* main.m in Sources */,
 				EB0B5AE0157A4A1C00D01C18 /* AppDelegate.m in Sources */,
 				EB0B5AE3157A4A1C00D01C18 /* Nandaroo.xcdatamodeld in Sources */,
+				EB0B5AEB157A4EB500D01C18 /* Question.m in Sources */,
+				EB0B5AF2157A525800D01C18 /* QuestionStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
