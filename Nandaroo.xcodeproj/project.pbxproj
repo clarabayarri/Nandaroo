@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0B5ACE157A4A1C00D01C18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5ACD157A4A1C00D01C18 /* UIKit.framework */; };
+		EB0B5AD0157A4A1C00D01C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5ACF157A4A1C00D01C18 /* Foundation.framework */; };
+		EB0B5AD2157A4A1C00D01C18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5AD1157A4A1C00D01C18 /* CoreGraphics.framework */; };
+		EB0B5AD4157A4A1C00D01C18 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5AD3157A4A1C00D01C18 /* CoreData.framework */; };
+		EB0B5ADA157A4A1C00D01C18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB0B5AD8157A4A1C00D01C18 /* InfoPlist.strings */; };
+		EB0B5ADC157A4A1C00D01C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5ADB157A4A1C00D01C18 /* main.m */; };
+		EB0B5AE0157A4A1C00D01C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5ADF157A4A1C00D01C18 /* AppDelegate.m */; };
+		EB0B5AE3157A4A1C00D01C18 /* Nandaroo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5AE1157A4A1C00D01C18 /* Nandaroo.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB0B5AC9157A4A1C00D01C18 /* Nandaroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nandaroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0B5ACD157A4A1C00D01C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB0B5ACF157A4A1C00D01C18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB0B5AD1157A4A1C00D01C18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB0B5AD3157A4A1C00D01C18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB0B5AD7157A4A1C00D01C18 /* Nandaroo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nandaroo-Info.plist"; sourceTree = "<group>"; };
+		EB0B5AD9157A4A1C00D01C18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB0B5ADB157A4A1C00D01C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB0B5ADD157A4A1C00D01C18 /* Nandaroo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nandaroo-Prefix.pch"; sourceTree = "<group>"; };
+		EB0B5ADE157A4A1C00D01C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB0B5ADF157A4A1C00D01C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB0B5AE2157A4A1C00D01C18 /* Nandaroo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nandaroo.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0B5AC6157A4A1C00D01C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0B5ACE157A4A1C00D01C18 /* UIKit.framework in Frameworks */,
+				EB0B5AD0157A4A1C00D01C18 /* Foundation.framework in Frameworks */,
+				EB0B5AD2157A4A1C00D01C18 /* CoreGraphics.framework in Frameworks */,
+				EB0B5AD4157A4A1C00D01C18 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0B5ABE157A4A1C00D01C18 = {
+			isa = PBXGroup;
+			children = (
+				EB0B5AD5157A4A1C00D01C18 /* Nandaroo */,
+				EB0B5ACC157A4A1C00D01C18 /* Frameworks */,
+				EB0B5ACA157A4A1C00D01C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0B5ACA157A4A1C00D01C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B5AC9157A4A1C00D01C18 /* Nandaroo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0B5ACC157A4A1C00D01C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B5ACD157A4A1C00D01C18 /* UIKit.framework */,
+				EB0B5ACF157A4A1C00D01C18 /* Foundation.framework */,
+				EB0B5AD1157A4A1C00D01C18 /* CoreGraphics.framework */,
+				EB0B5AD3157A4A1C00D01C18 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB0B5AD5157A4A1C00D01C18 /* Nandaroo */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B5ADE157A4A1C00D01C18 /* AppDelegate.h */,
+				EB0B5ADF157A4A1C00D01C18 /* AppDelegate.m */,
+				EB0B5AE1157A4A1C00D01C18 /* Nandaroo.xcdatamodeld */,
+				EB0B5AD6157A4A1C00D01C18 /* Supporting Files */,
+			);
+			path = Nandaroo;
+			sourceTree = "<group>";
+		};
+		EB0B5AD6157A4A1C00D01C18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B5AD7157A4A1C00D01C18 /* Nandaroo-Info.plist */,
+				EB0B5AD8157A4A1C00D01C18 /* InfoPlist.strings */,
+				EB0B5ADB157A4A1C00D01C18 /* main.m */,
+				EB0B5ADD157A4A1C00D01C18 /* Nandaroo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0B5AC8157A4A1C00D01C18 /* Nandaroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0B5AE6157A4A1C00D01C18 /* Build configuration list for PBXNativeTarget "Nandaroo" */;
+			buildPhases = (
+				EB0B5AC5157A4A1C00D01C18 /* Sources */,
+				EB0B5AC6157A4A1C00D01C18 /* Frameworks */,
+				EB0B5AC7157A4A1C00D01C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nandaroo;
+			productName = Nandaroo;
+			productReference = EB0B5AC9157A4A1C00D01C18 /* Nandaroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0B5AC0157A4A1C00D01C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EB0B5AC3157A4A1C00D01C18 /* Build configuration list for PBXProject "Nandaroo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB0B5ABE157A4A1C00D01C18;
+			productRefGroup = EB0B5ACA157A4A1C00D01C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0B5AC8157A4A1C00D01C18 /* Nandaroo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0B5AC7157A4A1C00D01C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0B5ADA157A4A1C00D01C18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0B5AC5157A4A1C00D01C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0B5ADC157A4A1C00D01C18 /* main.m in Sources */,
+				EB0B5AE0157A4A1C00D01C18 /* AppDelegate.m in Sources */,
+				EB0B5AE3157A4A1C00D01C18 /* Nandaroo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB0B5AD8157A4A1C00D01C18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0B5AD9157A4A1C00D01C18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB0B5AE4157A4A1C00D01C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB0B5AE5157A4A1C00D01C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB0B5AE7157A4A1C00D01C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nandaroo/Nandaroo-Prefix.pch";
+				INFOPLIST_FILE = "Nandaroo/Nandaroo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB0B5AE8157A4A1C00D01C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nandaroo/Nandaroo-Prefix.pch";
+				INFOPLIST_FILE = "Nandaroo/Nandaroo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0B5AC3157A4A1C00D01C18 /* Build configuration list for PBXProject "Nandaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0B5AE4157A4A1C00D01C18 /* Debug */,
+				EB0B5AE5157A4A1C00D01C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0B5AE6157A4A1C00D01C18 /* Build configuration list for PBXNativeTarget "Nandaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0B5AE7157A4A1C00D01C18 /* Debug */,
+				EB0B5AE8157A4A1C00D01C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB0B5AE1157A4A1C00D01C18 /* Nandaroo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB0B5AE2157A4A1C00D01C18 /* Nandaroo.xcdatamodel */,
+			);
+			currentVersion = EB0B5AE2157A4A1C00D01C18 /* Nandaroo.xcdatamodel */;
+			path = Nandaroo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB0B5AC0157A4A1C00D01C18 /* Project object */;
+}
